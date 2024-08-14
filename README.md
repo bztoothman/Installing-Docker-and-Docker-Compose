@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://imgur.com/a/lApHFRV"/>
+<img src="https://i.imgur.com/b89vVVF.png"/>
 </p>
 
 <h1>Guide to Installing Docker and Docker-Compose on Ubuntu LTS Versions</h1>
@@ -28,7 +28,6 @@ For a desktop environment, it is recommended to use Ubuntu 24.04 LTS Desktop: <a
 <h2>Uninstalling Previous Versions of Docker</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 To remove any existing Docker installations and conflicting packages, execute the following command:
@@ -40,7 +39,7 @@ for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker c
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VMTZmYU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <h2>Setting Up Docker's APT Repository</h2>
@@ -58,6 +57,15 @@ sudo install -m 0755 -d /etc/apt/keyrings
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
 sudo chmod a+r /etc/apt/keyrings/docker.asc
  ```
+<p>
+<img src="https://i.imgur.com/6VBDcOA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+During this process, you may be prompted with "Do you want to continue? [Y/n]". Type y and press Enter to proceed.
+
+<p>
+<img src="https://i.imgur.com/57mjhUZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 </p>
 <h1>Add the Docker Repository to APT Sources:</h1>
 <p>
@@ -73,7 +81,7 @@ sudo apt-get update
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/aXMOIs4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <h1>Installing the Latest Version of Docker</h1>
 <h2>To install Docker, run the following command:</h2>
@@ -82,11 +90,12 @@ sudo apt-get update
  ```bash
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
+During this process, you may be prompted with "Do you want to continue? [Y/n]". Type y and press Enter to proceed.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/YF37FVQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <h1>Verify Docker Installation</h1>
 <h2>To confirm Docker is installed correctly, check the version:</h2>
@@ -99,7 +108,7 @@ docker --version
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/8eUX64W.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <h1>Installing Docker-Compose</h1>
 <h2>To install Docker-Compose, use the following command:</h2>
@@ -112,7 +121,7 @@ curl -SL https://github.com/docker/compose/releases/download/v2.29.1/docker-comp
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/LnfobDF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <h1>Verify Docker-Compose Installation</h1>
 <h2>Check the installed version of Docker-Compose with:</h2>
@@ -121,5 +130,8 @@ curl -SL https://github.com/docker/compose/releases/download/v2.29.1/docker-comp
  ```bash
 docker compose version
 ```
+</p>
+<p>
+<img src="https://i.imgur.com/crZWJak.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
