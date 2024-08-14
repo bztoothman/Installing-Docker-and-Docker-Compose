@@ -6,7 +6,7 @@ Installing Docker and Docker-Compose
 </p>
 
 <h1>Guide to Installing Docker and Docker-Compose on Ubuntu LTS Versions</h1>
-In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
+This guide provides step-by-step instructions for uninstalling old versions of Docker, setting up the Docker APT repository, and installing the latest versions of Docker and Docker-Compose on Ubuntu LTS systems. <br />
 
 <h2>Environments and Technologies Used</h2>
 
