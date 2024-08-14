@@ -46,7 +46,8 @@ for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker c
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-<h2>Setting Up Docker's APT Repository/h2>
+<h2>Setting Up Docker's APT Repository</h2>
+ 
 <p>
 To install and update Docker from the official repository, follow these steps:
 </p>
