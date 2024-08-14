@@ -1,6 +1,3 @@
-# Installing-Docker-and-Docker-Compose
-Installing Docker and Docker-Compose
-
 <p align="center">
 <img src="![download](https://github.com/user-attachments/assets/edfd2184-fdb7-4063-9808-9b9c49b6abf2)"/>
 </p>
