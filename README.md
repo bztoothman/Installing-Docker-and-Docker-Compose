@@ -16,7 +16,7 @@ This guide provides step-by-step instructions for uninstalling old versions of D
 
 <h2>Operating Systems Used </h2>
 
-- Ubuntu 24.04 LTS Server (terminal only): Ubuntu Server 24.04 LTS.
+- Ubuntu 24.04 LTS Server (terminal only): <a href="https://ubuntu.com/download/server">Ubuntu Server 24.04 LTS</a>.
 
 <h2>Prerequisites</h2>
 
