@@ -24,7 +24,7 @@ Supported Operating Systems:
  - Ubuntu 24.04 LTS (Noble Numbat)
  - Ubuntu 22.04.4 LTS (Jammy Jellyfish)
  - Ubuntu 20.04.6 LTS (Focal Fossa)
-<p>This guide uses Ubuntu 24.04 LTS Server (terminal only): [Ubuntu Server 24.04 LTS](https://ubuntu.com/download/server).
+<p>This guide uses Ubuntu 24.04 LTS Server (terminal only): <a href="https://ubuntu.com/download/server">Ubuntu Server 24.04 LTS(https://ubuntu.com/download/server).
 For a desktop environment, it is recommended to use Ubuntu 24.04 LTS Desktop: [Ubuntu Desktop 24.04 LTS](https://ubuntu.com/download/desktop).</p>
 
 
