@@ -28,13 +28,17 @@ This guide uses Ubuntu 24.04 LTS Server (terminal only): [Ubuntu Server 24.04 LT
 For a desktop environment, it is recommended to use Ubuntu 24.04 LTS Desktop: [Ubuntu Desktop 24.04 LTS](https://ubuntu.com/download/desktop).
 
 
-<h2>Actions and Observations</h2>
+<h2>Uninstalling Previous Versions of Docker</h2>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To remove any existing Docker installations and conflicting packages, execute the following command:
+
+ ```bash
+for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
+```
 </p>
 <br />
 
