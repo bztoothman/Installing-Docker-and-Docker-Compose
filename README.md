@@ -1,5 +1,5 @@
 <p align="center">
-<img src="![download](https://github.com/user-attachments/assets/edfd2184-fdb7-4063-9808-9b9c49b6abf2)"/>
+<img src="![download](https://github.com/user-attachments/assets/edfd2184-fdb7-4063-9808-9b9c49b6abf2)" alt="Docker"/>
 </p>
 
 <h1>Guide to Installing Docker and Docker-Compose on Ubuntu LTS Versions</h1>
