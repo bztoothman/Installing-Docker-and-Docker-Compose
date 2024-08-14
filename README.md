@@ -25,7 +25,7 @@ Supported Operating Systems:
  - Ubuntu 22.04.4 LTS (Jammy Jellyfish)
  - Ubuntu 20.04.6 LTS (Focal Fossa)
 <p>This guide uses Ubuntu 24.04 LTS Server (terminal only): <a href="https://ubuntu.com/download/server">Ubuntu Server 24.04 LTS</a>.
-For a desktop environment, it is recommended to use Ubuntu 24.04 LTS Desktop: [Ubuntu Desktop 24.04 LTS](https://ubuntu.com/download/desktop).</p>
+For a desktop environment, it is recommended to use Ubuntu 24.04 LTS Desktop: <a href="https://ubuntu.com/download/desktop">Ubuntu Desktop 24.04 LTS</a>.</p>
 
 
 <h2>Uninstalling Previous Versions of Docker</h2>
