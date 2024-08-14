@@ -78,8 +78,8 @@ sudo apt-get update
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<h2>Installing the Latest Version of Docker</h2>
-<h1>To install Docker, run the following command:</h1>
+<h1>Installing the Latest Version of Docker</h1>
+<h2>To install Docker, run the following command:</h2>
 <p>
 
  ```bash
@@ -91,8 +91,8 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<h2>Verify Docker Installation</h2>
-<h1>To confirm Docker is installed correctly, check the version:</h1>
+<h1>Verify Docker Installation</h1>
+<h2>To confirm Docker is installed correctly, check the version:</h2>
 <p>
 
  ```bash
