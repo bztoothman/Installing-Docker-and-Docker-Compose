@@ -73,13 +73,56 @@ sudo chmod a+r /etc/apt/keyrings/docker.asc
 sudo apt-get update
  ```
 </p>
-
 <br />
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<h2>Installing the Latest Version of Docker</h2>
+<h1>To install Docker, run the following command:</h1>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+ ```bash
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<h2>Verify Docker Installation</h2>
+<h1>To confirm Docker is installed correctly, check the version:</h1>
+<p>
+
+ ```bash
+docker --version
+```
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<h2>Installing Docker-Compose</h2>
+<h1>To install Docker-Compose, use the following command:</h1>
+<p>
+
+ ```bash
+curl -SL https://github.com/docker/compose/releases/download/v2.29.1/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
+```
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<h2>Verify Docker-Compose Installation</h2>
+<h1>Check the installed version of Docker-Compose with:</h1>
+<p>
+
+ ```bash
+docker compose version
+```
 </p>
 <br />
