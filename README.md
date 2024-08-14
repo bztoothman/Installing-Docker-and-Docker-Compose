@@ -20,10 +20,10 @@ This guide provides step-by-step instructions for uninstalling old versions of D
 
 <h2>Prerequisites</h2>
 
-Supported Operating Systems:
+<p>Supported Operating Systems:
  - Ubuntu 24.04 LTS (Noble Numbat)
  - Ubuntu 22.04.4 LTS (Jammy Jellyfish)
- - Ubuntu 20.04.6 LTS (Focal Fossa)
+ - Ubuntu 20.04.6 LTS (Focal Fossa)</p>
 This guide uses Ubuntu 24.04 LTS Server (terminal only): [Ubuntu Server 24.04 LTS](https://ubuntu.com/download/server).
 For a desktop environment, it is recommended to use Ubuntu 24.04 LTS Desktop: [Ubuntu Desktop 24.04 LTS](https://ubuntu.com/download/desktop).
 
