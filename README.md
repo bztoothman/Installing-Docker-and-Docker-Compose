@@ -104,8 +104,8 @@ docker --version
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<h2>Installing Docker-Compose</h2>
-<h1>To install Docker-Compose, use the following command:</h1>
+<h1>Installing Docker-Compose</h1>
+<h2>To install Docker-Compose, use the following command:</h2>
 <p>
 
  ```bash
@@ -117,8 +117,8 @@ curl -SL https://github.com/docker/compose/releases/download/v2.29.1/docker-comp
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<h2>Verify Docker-Compose Installation</h2>
-<h1>Check the installed version of Docker-Compose with:</h1>
+<h1>Verify Docker-Compose Installation</h1>
+<h2>Check the installed version of Docker-Compose with:</h2>
 <p>
 
  ```bash
