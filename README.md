@@ -51,6 +51,7 @@ To install and update Docker from the official repository, follow these steps:
 </p>
 <h1>Add Docker's Official GPG Key:</h1>
 <p>
+ 
  ```bash
  sudo apt-get update
 sudo apt-get install ca-certificates curl
@@ -61,6 +62,7 @@ sudo chmod a+r /etc/apt/keyrings/docker.asc
 </p>
 <h1>Add the Docker Repository to APT Sources:</h1>
 <p>
+ 
  ```bash
  echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
